@@ -1,0 +1,66 @@
+/* Custom Glassmorphism and Neumorphism Styles */
+.glass {
+  background: rgba(255, 255, 255, 0.75); /* Reduced opacity for subtler effect */
+  backdrop-filter: blur(6px); /* Reduced blur */
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Lighter border */
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.08); /* Softer shadow */
+}
+
+.glass-dark {
+  background: rgba(17, 25, 40, 0.5); /* Reduced opacity */
+  backdrop-filter: blur(6px); /* Reduced blur */
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.light-glass {
+  background: rgba(255, 255, 255, 0.85); /* Even lighter for subtle effect */
+  backdrop-filter: blur(4px); /* Minimal blur */
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.neumorphic {
+  background: #f8f8f8;
+  border-radius: 16px;
+  box-shadow:  4px 4px 8px #e0e0e0,
+               -4px -4px 8px #ffffff;
+}
+
+.neumorphic-inset {
+  background: #f8f8f8;
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 4px #e0e0e0,
+              inset -2px -2px 4px #ffffff;
+}
+
+.neumorphic-orange {
+  background: linear-gradient(145deg, #fa8a20, #ffa726);
+  border-radius: 16px;
+  box-shadow:  4px 4px 8px #d96e00,
+               -4px -4px 8px #ffaa14;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
