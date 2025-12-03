@@ -80,8 +80,7 @@ export function About() {
                       lingala
                     </span>
                   </div>
-                </div>
-                
+                </div>            
                 <div className="mt-6">
                   <p className="font-medium mb-4 text-gray-800">Interests</p>
                   <div className="flex flex-wrap gap-3">
@@ -97,7 +96,7 @@ export function About() {
                     <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
                       Working abroad
                     </span>
-                    <span classname="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
                       Personal development
                     </span>
                   </div>
@@ -110,3 +109,4 @@ export function About() {
     </section>
      );
 }
+
