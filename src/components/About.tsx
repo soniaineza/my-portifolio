@@ -44,7 +44,6 @@ export function About() {
                     <p className="text-gray-600">Kigali, Rwanda</p>
                   </div>
                 </div>
-                
                 <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
                   <Calendar size={24} className="text-primary-600 mr-4" />
                   <div>
@@ -52,7 +51,6 @@ export function About() {
                     <p className="text-gray-600">17</p>
                   </div>
                 </div>
-                
                 <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
                   <Globe size={24} className="text-primary-600 mr-4" />
                   <div>
@@ -60,7 +58,6 @@ export function About() {
                     <p className="text-gray-600">Rwandan</p>
                   </div>
                 </div>
-                
                 <div className="mt-6">
                   <p className="font-medium mb-4 text-gray-800">Languages</p>
                   <div className="flex flex-wrap gap-3">
@@ -100,7 +97,7 @@ export function About() {
                     <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
                       Working abroad
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span classname="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
                       Personal development
                     </span>
                   </div>
@@ -111,5 +108,5 @@ export function About() {
         </div>
       </div>
     </section>
-  );
+     );
 }
