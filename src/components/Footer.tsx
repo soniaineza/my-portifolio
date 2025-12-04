@@ -17,16 +17,16 @@ export function Footer() {
           
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
             <nav className="flex flex-wrap justify-center gap-4 mb-6 md:mb-0">
-              <a href="#about" className="px-4 py-2 text-gray-400 hover:text-primary-400 transition-colors duration-300 rounded-lg hover:bg-white/10">
+              <a href="#about" className="px-4 py-2 text-gray-400 transition-colors duration-300 rounded-lg">
                 About
               </a>
-              <a href="#skills" className="px-4 py-2 text-gray-400 hover:text-primary-400 transition-colors duration-300 rounded-lg hover:bg-white/10">
+              <a href="#skills" className="px-4 py-2 text-gray-400 transition-colors duration-300 rounded-lg">
                 Skills
               </a>
-              <a href="#projects" className="px-4 py-2 text-gray-400 hover:text-primary-400 transition-colors duration-300 rounded-lg hover:bg-white/10">
+              <a href="#projects" className="px-4 py-2 text-gray-400 transition-colors duration-300 rounded-lg">
                 Projects
               </a>
-              <a href="#contact" className="px-4 py-2 text-gray-400 hover:text-primary-400 transition-colors duration-300 rounded-lg hover:bg-white/10">
+              <a href="#contact" className="px-4 py-2 text-gray-400 transition-colors duration-300 rounded-lg">
                 Contact
               </a>
             </nav>
