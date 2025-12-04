@@ -24,6 +24,22 @@ export function ProjectDetail({
       githubUrl: 'https://github.com/soniaineza/verbatim-web-maker',
       status: 'Live'
     },
+    'weown': {
+      name: 'WeOwn Real Estate Platform',
+      tagline: 'Modern Real Estate Marketplace',
+      description: 'A comprehensive real estate platform for buying, selling, and investing in properties with intuitive search and comparison tools.',
+      fullDescription: 'WeOwn is a modern real estate platform designed to revolutionize the property buying and selling experience. The platform offers users an intuitive interface to search for properties, compare listings, and connect with real estate professionals. With features like advanced filtering, property comparisons, and investment tracking, WeOwn makes finding your dream property easier than ever.',
+      problem: 'Traditional real estate platforms often have cluttered interfaces, limited search capabilities, and lack comprehensive property comparison tools. Buyers and investors struggle to find relevant properties quickly, and sellers face challenges in reaching the right audience.',
+      solution: 'WeOwn addresses these issues by providing a clean, user-friendly interface with powerful search and filtering capabilities. The platform offers detailed property listings, side-by-side comparisons, investment calculators, and personalized recommendations based on user preferences.',
+      features: ['Advanced property search with filters', 'Side-by-side property comparison', 'Investment return calculator', 'Property listing management', 'User account system', 'Responsive design for all devices', 'Property categorization (ready-to-move, under construction, upcoming)', 'Detailed property information with images'],
+      techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
+      role: 'Full Stack Developer',
+      responsibilities: ['Frontend development with React and TypeScript', 'UI/UX design implementation', 'Backend API development', 'Database design and management', 'Responsive design implementation', 'Property search algorithm development'],
+      impact: ['Streamlined property search experience', 'Increased user engagement through intuitive design', 'Improved property discovery for buyers', 'Enhanced listing management for sellers', 'Faster property comparisons'],
+      images: [],
+      liveUrl: 'https://weown.lovable.app',
+      status: 'Live'
+    },
     'sheja-cards': {
       name: 'Sheja Cards',
       tagline: 'Modern Student Card Management Platform',

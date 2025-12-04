@@ -1,8 +1,15 @@
 import React from 'react';
-import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Mic } from 'lucide-react';
+import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home } from 'lucide-react';
 
 export function Projects() {
   const projects = [
+    {
+      id: 'weown',
+      name: 'WeOwn Real Estate',
+      description: 'Modern real estate platform for buying, selling, and investing in properties with intuitive search and comparison tools.',
+      icon: <Home size={24} className="text-blue-600" />,
+      tags: ['Real Estate', 'Web Platform', 'Property Search', 'Investment']
+    },
     {
       id: 'verbatim-web-maker',
       name: 'Verbatim Web Maker',
