@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home } from 'lucide-react';
+import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home, Mic } from 'lucide-react';
 
 export function Projects() {
   const projects = [

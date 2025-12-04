@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 export function Hero() {
   return (
     <section className="pt-28 pb-20 px-4 bg-gradient-to-br from-orange-50 via-amber-50 to-white">

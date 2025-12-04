@@ -20,8 +20,6 @@ export function ProjectDetail({
       responsibilities: ['AI model integration and training', 'Voice recognition system implementation', 'Natural language processing pipeline', 'Frontend development with React', 'Backend API development', 'UI/UX design'],
       impact: ['Democratized web development for non-technical users', 'Reduced website creation time from weeks to minutes', 'Enabled rapid prototyping and iteration', 'Provided accessible web development tools'],
       images: [],
-      liveUrl: 'https://verbatim-web-maker.lovable.app',
-      githubUrl: 'https://github.com/soniaineza/verbatim-web-maker',
       status: 'Live'
     },
     'weown': {
