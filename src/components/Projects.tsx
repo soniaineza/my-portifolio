@@ -1,8 +1,15 @@
 import React from 'react';
-import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles } from 'lucide-react';
+import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Mic } from 'lucide-react';
 
 export function Projects() {
   const projects = [
+    {
+      id: 'verbatim-web-maker',
+      name: 'Verbatim Web Maker',
+      description: 'AI-powered web development platform that generates websites from voice commands and natural language descriptions.',
+      icon: <Mic size={24} className="text-blue-600" />,
+      tags: ['AI', 'Voice Recognition', 'Web Development', 'No-Code']
+    },
     {
       id: 'sheja-cards',
       name: 'Sheja Cards',

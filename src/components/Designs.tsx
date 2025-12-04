@@ -21,7 +21,6 @@ const designs = [
     imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
   }
 ];
-
 export function Designs() {
   return (
     <section id="designs" className="py-20 px-4 bg-gradient-to-br from-white to-orange-50">
@@ -32,7 +31,6 @@ export function Designs() {
             Check out my UI/UX design work on Figma. Each project represents my approach to creating intuitive and visually appealing user experiences.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {designs.map((design, index) => (
             <div 

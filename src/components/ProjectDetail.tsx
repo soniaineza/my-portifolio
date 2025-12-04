@@ -7,6 +7,23 @@ export function ProjectDetail({
   projectId
 }: ProjectDetailProps) {
   const projectsData: Record<string, any> = {
+    'verbatim-web-maker': {
+      name: 'Verbatim Web Maker',
+      tagline: 'AI Voice-Controlled Web Development Platform',
+      description: 'AI-powered web development platform that generates websites from voice commands and natural language descriptions.',
+      fullDescription: 'Verbatim Web Maker is an innovative AI-powered platform that revolutionizes web development by allowing users to create websites using only their voice. By leveraging advanced natural language processing and voice recognition technologies, users can describe their website requirements in plain English and have a fully functional website generated instantly.',
+      problem: 'Traditional web development requires technical skills, significant time investment, and often involves complex coding. Many people with great ideas lack the technical expertise to bring them to life online, creating a barrier between creativity and implementation.',
+      solution: 'Verbatim Web Maker eliminates the technical barriers to web development by translating natural language descriptions into functional websites. Users simply describe what they want their website to do, and the AI generates the appropriate code and structure automatically.',
+      features: ['Voice command recognition', 'Natural language processing', 'Instant website generation', 'Template customization options', 'Drag-and-drop editor', 'Responsive design', 'SEO optimization', 'Hosting integration'],
+      techStack: ['React', 'Node.js', 'AI/ML', 'Voice Recognition API', 'Natural Language Processing', 'Tailwind CSS'],
+      role: 'Full Stack Developer & AI Integration Specialist',
+      responsibilities: ['AI model integration and training', 'Voice recognition system implementation', 'Natural language processing pipeline', 'Frontend development with React', 'Backend API development', 'UI/UX design'],
+      impact: ['Democratized web development for non-technical users', 'Reduced website creation time from weeks to minutes', 'Enabled rapid prototyping and iteration', 'Provided accessible web development tools'],
+      images: [],
+      liveUrl: 'https://verbatim-web-maker.lovable.app',
+      githubUrl: 'https://github.com/soniaineza/verbatim-web-maker',
+      status: 'Live'
+    },
     'sheja-cards': {
       name: 'Sheja Cards',
       tagline: 'Modern Student Card Management Platform',
