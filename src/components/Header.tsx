@@ -20,6 +20,7 @@ export function Header() {
     { name: 'Skills', href: '#skills' },
     { name: 'Education', href: '#education' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Designs', href: '#designs' },
     { name: 'Contact', href: '#contact' }
   ];
 

@@ -8,6 +8,7 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { ProjectDetail } from './components/ProjectDetail';
+import { Designs } from './components/Designs';
 
 export function App() {
   // Simple routing based on hash
@@ -64,6 +65,7 @@ export function App() {
         <Skills />
         <Education />
         <Projects />
+        <Designs />
         <Contact />
       </main>
       <Footer />
