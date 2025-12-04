@@ -22,7 +22,6 @@ export function Education() {
               </div>
             </div>
             <div className="text-slate-800 font-medium mb-4">
-              École Secondaire Technique de Gisenyi
             </div>
             <div className="mt-4">
               <h4 className="font-semibold text-primary-600 flex items-center">
