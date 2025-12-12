@@ -38,8 +38,6 @@ export function Header() {
         >
           Sonia Ineza
         </a>
-
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-1">
           <nav className="flex space-x-1">
             {navLinks.map((link, index) => (
@@ -54,8 +52,6 @@ export function Header() {
             ))}
           </nav>
         </div>
-
-        {/* Mobile Menu Button */}
         <button 
           onClick={toggleMenu} 
           className="md:hidden p-2 rounded-lg hover:bg-white/30 transition-colors glass backdrop-blur-sm"
@@ -64,8 +60,6 @@ export function Header() {
           {isMenuOpen ? <X size={24} className="text-primary-600" /> : <Menu size={24} className="text-primary-600" />}
         </button>
       </div>
-
-      {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="md:hidden bg-white/80 backdrop-blur-lg shadow-lg border-t border-white/20 animate-slide-up">
           <nav className="flex flex-col py-2">

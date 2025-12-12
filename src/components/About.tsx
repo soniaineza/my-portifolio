@@ -1,6 +1,5 @@
 import React from 'react';
 import { MapPin, Globe, Calendar } from 'lucide-react';
-
 export function About() {
   return (
     <section id="about" className="py-20 px-4 bg-gradient-to-br from-orange-50 to-amber-50">
@@ -11,7 +10,6 @@ export function About() {
         <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-orange-500 mx-auto mb-12 rounded-full"></div>
         
         <div className="flex flex-col md:flex-row gap-12">
-          {/* Who I Am Section */}
           <div className="md:w-1/2 glass backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-fade-in">
             <h3 className="text-xl font-semibold mb-4 text-primary-700">Who I Am</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
@@ -31,8 +29,6 @@ export function About() {
               hard work, and God's timing.
             </p>
           </div>
-          
-          {/* Personal Details Section */}
           <div className="md:w-1/2">
             <div className="glass backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-slide-up">
               <h3 className="text-xl font-semibold mb-6 text-primary-700">Personal Details</h3>
