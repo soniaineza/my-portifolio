@@ -42,8 +42,7 @@ export function Footer() {
             &copy; {currentYear} Sonia Ineza. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm flex items-center">
-            Made with <Heart size={14} className="text-red-500 mx-1 animate-pulse" /> in
-            Kigali, Rwanda
+            Made with <Heart size={14} className="text-red-500 mx-1 animate-pulse" /> 
           </p>
         </div>
       </div>

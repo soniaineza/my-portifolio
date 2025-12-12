@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home, Mic } from 'lucide-react';
+import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home, Mic, Building2, Trash2, Leaf, Stethoscope, BatteryCharging, MapPin, GraduationCap, Wind, Lightbulb, Flame, Bus } from 'lucide-react';
 
 export function Projects() {
   const projects = [
@@ -93,6 +93,83 @@ export function Projects() {
       description: 'Modern streaming platform with intuitive interface for browsing and watching movies with smooth playback experience.',
       icon: <Film size={24} className="text-pink-600" />,
       tags: ['Streaming', 'Entertainment', 'Web App']
+    },
+    {
+      id: 'smart-city-hub',
+      name: 'Smart City Infrastructure Hub',
+      description: 'A central management system for monitoring city infrastructure, utilities, transport, and public safety using IoT dashboards and real-time analytics.',
+      icon: <Building2 size={24} className="text-blue-700" />,
+      tags: ['Smart City', 'IoT', 'Analytics', 'Dashboard']
+    },
+    {
+      id: 'city-waste-ai',
+      name: 'CityWaste AI',
+      description: 'Smart waste detection and pickup routing using AI-powered image recognition and optimized paths for garbage trucks.',
+      icon: <Trash2 size={24} className="text-green-600" />,
+      tags: ['AI', 'Smart City', 'Image Recognition', 'Optimization']
+    },
+    {
+      id: 'agro-vision',
+      name: 'AgroVision',
+      description: 'Crop and soil monitoring app helping farmers track plant health, rainfall patterns, and yield predictions.',
+      icon: <Leaf size={24} className="text-emerald-600" />,
+      tags: ['Agriculture', 'ML', 'Monitoring']
+    },
+    {
+      id: 'healthline-telecare',
+      name: 'HealthLine Telecare',
+      description: 'Virtual healthcare system offering remote doctor consultations, patient triage, and smart appointment scheduling.',
+      icon: <Stethoscope size={24} className="text-red-600" />,
+      tags: ['HealthTech', 'Telemedicine', 'Scheduling']
+    },
+    {
+      id: 'ecocharge-ev',
+      name: 'EcoCharge EV Network',
+      description: 'Platform for managing and locating electric vehicle charging stations with live availability tracking.',
+      icon: <BatteryCharging size={24} className="text-blue-500" />,
+      tags: ['EV', 'Smart City', 'Energy']
+    },
+    {
+      id: 'road-sense',
+      name: 'RoadSense',
+      description: 'Road hazard detection and reporting system with GPS tracking and community alerts.',
+      icon: <MapPin size={24} className="text-orange-500" />,
+      tags: ['Mapping', 'Reporting', 'Safety']
+    },
+    {
+      id: 'eduportal-plus',
+      name: 'EduPortal+',
+      description: 'A centralized education portal for schools, parents, and students with progress tracking and e-learning tools.',
+      icon: <GraduationCap size={24} className="text-purple-600" />,
+      tags: ['Education', 'E-learning', 'Management']
+    },
+    {
+      id: 'clean-air-map',
+      name: 'CleanAir Map',
+      description: 'City-wide air quality tracking tool showing pollution levels using sensors and heat maps.',
+      icon: <Wind size={24} className="text-sky-600" />,
+      tags: ['Environment', 'Sensors', 'Visualization']
+    },
+    {
+      id: 'streetlight-sync',
+      name: 'StreetLight Sync',
+      description: 'Smart streetlight system that optimizes power usage based on traffic and time of day.',
+      icon: <Lightbulb size={24} className="text-yellow-500" />,
+      tags: ['Smart City', 'Energy', 'IoT']
+    },
+    {
+      id: 'fireguard-ai',
+      name: 'FireGuard AI',
+      description: 'Fire detection system using ML to identify smoke, heat anomalies, and notify emergency teams instantly.',
+      icon: <Flame size={24} className="text-red-500" />,
+      tags: ['AI', 'Emergency', 'Detection']
+    },
+    {
+      id: 'citybus-live',
+      name: 'CityBus Live',
+      description: 'Real-time bus tracking platform with estimated arrival times, route optimization, and smart ticketing.',
+      icon: <Bus size={24} className="text-indigo-600" />,
+      tags: ['Transport', 'Real-time', 'Smart City']
     }
   ];
 
@@ -101,10 +178,10 @@ export function Projects() {
       <div className="container mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-4xl font-bold mb-3 bg-gradient-to-r from-primary-600 to-orange-500 bg-clip-text text-transparent">
-            Things I've Built
+            Projects I've Worked On
           </h2>
           <p className="text-gray-600 text-lg">
-            A collection of projects that solve real problems
+            A collection of projects I've contributed to and learned from
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-orange-500 mx-auto mt-4 rounded-full"></div>
         </div>

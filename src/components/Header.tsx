@@ -21,7 +21,8 @@ export function Header() {
     { name: 'Education', href: '#education' },
     { name: 'Projects', href: '#projects' },
     { name: 'Designs', href: '#designs' },
-    { name: 'Contact', href: '#contact' }
+      { name: 'Achievements', href: '#Achievements ' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (

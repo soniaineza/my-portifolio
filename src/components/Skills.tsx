@@ -21,12 +21,12 @@ export function Skills() {
     {
       title: 'Backend',
       icon: <Server size={24} className="text-primary-600" />,
-      skills: ['Python (SQLite)', 'NoSQL']
+      skills: ['Python (SQLite)', 'NoSQL' ,'java script' ]
     },
     {
       title: 'Databases',
       icon: <Database size={24} className="text-primary-600" />,
-      skills: ['SQLite', 'NoSQL']
+      skills: ['SQLite', 'NoSQL','Mongo DB','pocketBase']
     },
     {
       title: 'DevOps & QA',
@@ -54,12 +54,12 @@ export function Skills() {
           <path d="m6 6 12 12"/>
         </svg>
       </div>,
-      skills: ['IDX', 'VS Code', 'GitHub']
+      skills: ['IDX', 'VS Code', 'GitHub' ,'mongo Atlas','Mongo Compass']
     },
     {
       title: 'Other',
       icon: <Palette size={24} className="text-primary-600" />,
-      skills: ['UI/UX Design', 'Smart City Solutions', 'Algorithm Design', 'Problem Solving']
+      skills: ['UI/UX Design', 'Smart City Solutions', 'Algorithm Design', 'Problem Solving','Godot' ,'']
     }
   ];
 

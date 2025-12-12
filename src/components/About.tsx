@@ -15,16 +15,16 @@ export function About() {
           <div className="md:w-1/2 glass backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-fade-in">
             <h3 className="text-xl font-semibold mb-4 text-primary-700">Who I Am</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              I'm a passionate and creative software developer specializing in
-              web and mobile development. I have strong skills in JavaScript,
-              Flutter, and smart city solutions, with experience in UI/UX
-              design, custom styling, and interactive web components.
+              I'm a passionate and creative student who loves working on
+              software projects, particularly in web and mobile development. I've
+              worked with JavaScript, Flutter, and smart city solutions, gaining
+              experience in UI/UX design, custom styling, and interactive components.
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
               I also explore AI and image processing, particularly in
               translating text from images. I'm focused on building impactful
               real-world solutions and dream of creating platforms where
-              developers can be discovered by big companies.
+              young developers can be discovered by big companies.
             </p>
             <p className="text-gray-700 leading-relaxed">
               I'm curious, innovative, and always learning. I believe in faith,
@@ -41,14 +41,14 @@ export function About() {
                   <MapPin size={24} className="text-primary-600 mr-4" />
                   <div>
                     <p className="font-medium text-gray-800">Location</p>
-                    <p className="text-gray-600">Kigali, Rwanda</p>
+                    <p className="text-gray-600">Kigali,Rwanda</p>
                   </div>
                 </div>
                 <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
                   <Calendar size={24} className="text-primary-600 mr-4" />
                   <div>
                     <p className="font-medium text-gray-800">Age</p>
-                    <p className="text-gray-600">17</p>
+                    <p className="text-gray-600">8th.feb.2008</p>
                   </div>
                 </div>
                 <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
@@ -74,7 +74,7 @@ export function About() {
                       Kiswahili
                     </span>
                     <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
-                      chinese
+                      chinese-mandarin
                     </span>
                     <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
                       lingala
@@ -94,7 +94,13 @@ export function About() {
                       Education technology
                     </span>
                     <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
-                      Working abroad
+                      physics
+                    </span>
+                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                      Exploring cultures & languages
+                    </span>
+                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                      Fortnite
                     </span>
                     <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
                       Personal development
