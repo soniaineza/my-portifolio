@@ -1,6 +1,5 @@
 import React from 'react';
 import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home, Mic, Building2, Trash2, Leaf, Stethoscope, BatteryCharging, MapPin, GraduationCap, Wind, Lightbulb, Flame, Bus } from 'lucide-react';
-
 export function Projects() {
   const projects = [
     {
@@ -174,25 +173,24 @@ export function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 px-4 bg-gradient-to-b from-orange-50 to-amber-50">
+    <section id="projects" className="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
       <div className="container mx-auto">
         <div className="mb-16 text-center">
-          <h2 className="text-4xl font-bold mb-3 bg-gradient-to-r from-primary-600 to-orange-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
             Projects I've Worked On
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-300 text-lg">
             A collection of projects I've contributed to and learned from
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-orange-500 mx-auto mt-4 rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mt-4 rounded-full"></div>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <a 
               key={project.id} 
               href={`/project/${project.id}`} 
-              className="group glass backdrop-blur-lg rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.03] animate-fade-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.03] animate-fade-in"
+              style={{animationDelay:`${index * 0.1}s`}}
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="p-3 neumorphic rounded-lg group-hover:bg-primary-50 transition-colors duration-300">

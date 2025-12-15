@@ -23,11 +23,11 @@ const designs = [
 ];
 export function Designs() {
   return (
-    <section id="designs" className="py-20 px-4 bg-gradient-to-br from-white to-orange-50">
+    <section id="designs" className="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">My Designs</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent mb-4">My Designs</h2>
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Check out my UI/UX design work on Figma. Each project represents my approach to creating intuitive and visually appealing user experiences.
           </p>
         </div>
@@ -35,7 +35,7 @@ export function Designs() {
           {designs.map((design, index) => (
             <div 
               key={index} 
-              className="neumorphic rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="glass-dark backdrop-blur-lg bg-slate-800/50 rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               <div className="h-48 overflow-hidden">
                 <img 
@@ -45,13 +45,13 @@ export function Designs() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{design.title}</h3>
-                <p className="text-gray-600 mb-4">{design.description}</p>
+                <h3 className="text-2xl font-bold text-gray-100 mb-2">{design.title}</h3>
+                <p className="text-gray-300 mb-4">{design.description}</p>
                 <a 
                   href={design.figmaUrl} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 neumorphic-orange text-white rounded-lg hover:scale-105 transition-all duration-300"
+                  className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg hover:scale-105 transition-all duration-300"
                 >
                   View in Figma
                   <ExternalLink size={16} className="ml-2" />

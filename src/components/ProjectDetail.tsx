@@ -356,23 +356,23 @@ export function ProjectDetail({
         </div>
       </div>;
   }
-  return <div className="min-h-screen bg-gradient-to-b from-orange-50 to-amber-50">
+  return <div className="min-h-screen bg-gradient-to-r from-gray-900 to-black">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-white/80 to-white/50 border-b border-gray-100 backdrop-blur-sm">
+      <div className="bg-gradient-to-br from-gray-900/80 to-black/50 border-b border-gray-800 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-12">
-          <a href="#projects" className="inline-flex items-center text-gray-600 hover:text-primary-600 mb-8 transition-colors duration-300">
+          <a href="#projects" className="inline-flex items-center text-gray-400 hover:text-blue-400 mb-8 transition-colors duration-300">
             <ArrowLeft size={20} className="mr-2" />
             Back to Projects
           </a>
 
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-100">
               {project.name}
             </h1>
-            <p className="text-xl text-gray-600 mb-6">{project.tagline}</p>
+            <p className="text-xl text-gray-300 mb-6">{project.tagline}</p>
 
             <div className="flex flex-wrap gap-4 mb-8">
-              {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-300">
+              {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
                   View Live Site
                   <ExternalLink size={18} className="ml-2" />
                 </a>}
@@ -383,12 +383,12 @@ export function ProjectDetail({
             </div>
 
             <div className="flex flex-wrap gap-6 text-sm">
-              <div className="flex items-center text-gray-600">
+              <div className="flex items-center text-gray-400">
                 <Calendar size={18} className="mr-2" />
                 <span className="font-medium">Status:</span>
                 <span className="ml-2">{project.status}</span>
               </div>
-              <div className="flex items-center text-gray-600">
+              <div className="flex items-center text-gray-400">
                 <Users size={18} className="mr-2" />
                 <span className="font-medium">Role:</span>
                 <span className="ml-2">{project.role}</span>

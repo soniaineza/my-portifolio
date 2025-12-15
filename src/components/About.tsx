@@ -2,103 +2,103 @@ import React from 'react';
 import { MapPin, Globe, Calendar } from 'lucide-react';
 export function About() {
   return (
-    <section id="about" className="py-20 px-4 bg-gradient-to-br from-orange-50 to-amber-50">
+    <section id="about" className="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4 bg-gradient-to-r from-primary-600 to-orange-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold text-center mb-4 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
           About Me
         </h2>
-        <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-orange-500 mx-auto mb-12 rounded-full"></div>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mb-12 rounded-full"></div>
         
         <div className="flex flex-col md:flex-row gap-12">
-          <div className="md:w-1/2 glass backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-fade-in">
-            <h3 className="text-xl font-semibold mb-4 text-primary-700">Who I Am</h3>
-            <p className="text-gray-700 mb-6 leading-relaxed">
+          <div className="md:w-1/2 glass-dark backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-fade-in bg-slate-800/50">
+            <h3 className="text-xl font-semibold mb-4 text-blue-400">Who I Am</h3>
+            <p className="text-gray-300 mb-6 leading-relaxed">
               I'm a passionate and creative student who loves working on
               software projects, particularly in web and mobile development. I've
               worked with JavaScript, Flutter, and smart city solutions, gaining
               experience in UI/UX design, custom styling, and interactive components.
             </p>
-            <p className="text-gray-700 mb-6 leading-relaxed">
+            <p className="text-gray-300 mb-6 leading-relaxed">
               I also explore AI and image processing, particularly in
               translating text from images. I'm focused on building impactful
               real-world solutions and dream of creating platforms where
               young developers can be discovered by big companies.
             </p>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed">
               I'm curious, innovative, and always learning. I believe in faith,
               hard work, and God's timing.
             </p>
           </div>
           <div className="md:w-1/2">
-            <div className="glass backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-slide-up">
-              <h3 className="text-xl font-semibold mb-6 text-primary-700">Personal Details</h3>
+            <div className="glass-dark backdrop-blur-lg rounded-2xl p-8 shadow-xl animate-slide-up bg-slate-800/50">
+              <h3 className="text-xl font-semibold mb-6 text-blue-400">Personal Details</h3>
               <div className="space-y-6">
-                <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
-                  <MapPin size={24} className="text-primary-600 mr-4" />
+                <div className="flex items-center p-4 bg-slate-700/50 rounded-xl hover:scale-[1.02] transition-transform duration-300">
+                  <MapPin size={24} className="text-blue-400 mr-4" />
                   <div>
-                    <p className="font-medium text-gray-800">Location</p>
-                    <p className="text-gray-600">Kigali,Rwanda</p>
+                    <p className="font-medium text-gray-200">Location</p>
+                    <p className="text-gray-400">Kigali,Rwanda</p>
                   </div>
                 </div>
-                <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
-                  <Calendar size={24} className="text-primary-600 mr-4" />
+                <div className="flex items-center p-4 bg-slate-700/50 rounded-xl hover:scale-[1.02] transition-transform duration-300">
+                  <Calendar size={24} className="text-blue-400 mr-4" />
                   <div>
-                    <p className="font-medium text-gray-800">Age</p>
-                    <p className="text-gray-600">8th.feb.2008</p>
+                    <p className="font-medium text-gray-200">Age</p>
+                    <p className="text-gray-400">8th.feb.2008</p>
                   </div>
                 </div>
-                <div className="flex items-center p-4 neumorphic rounded-xl hover:scale-[1.02] transition-transform duration-300">
-                  <Globe size={24} className="text-primary-600 mr-4" />
+                <div className="flex items-center p-4 bg-slate-700/50 rounded-xl hover:scale-[1.02] transition-transform duration-300">
+                  <Globe size={24} className="text-blue-400 mr-4" />
                   <div>
-                    <p className="font-medium text-gray-800">Nationality</p>
-                    <p className="text-gray-600">Rwandan</p>
+                    <p className="font-medium text-gray-200">Nationality</p>
+                    <p className="text-gray-400">Rwandan</p>
                   </div>
                 </div>
                 <div className="mt-6">
-                  <p className="font-medium mb-4 text-gray-800">Languages</p>
+                  <p className="font-medium mb-4 text-gray-200">Languages</p>
                   <div className="flex flex-wrap gap-3">
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       English
                     </span>
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       Kinyarwanda
                     </span>
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       French
                     </span>
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       Kiswahili
                     </span>
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       chinese-mandarin
                     </span>
-                    <span className="px-4 py-2 neumorphic-orange text-orange-800 rounded-full text-sm font-medium">
+                    <span className="px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-sm font-medium">
                       lingala
                     </span>
                   </div>
                 </div>            
                 <div className="mt-6">
-                  <p className="font-medium mb-4 text-gray-800">Interests</p>
+                  <p className="font-medium mb-4 text-gray-200">Interests</p>
                   <div className="flex flex-wrap gap-3">
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       Building tech solutions
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       AI & automation
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       Education technology
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       physics
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       Exploring cultures & languages
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       Fortnite
                     </span>
-                    <span className="px-4 py-2 glass backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium hover:bg-white/30 transition-colors">
+                    <span className="px-4 py-2 glass-dark backdrop-blur-sm text-gray-300 rounded-full text-sm font-medium hover:bg-slate-700/50 transition-colors">
                       Personal development
                     </span>
                   </div>

@@ -12,9 +12,8 @@ export function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+  
   const navLinks = [
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
@@ -34,9 +33,9 @@ export function Header() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a 
           href="#" 
-          className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-orange-500 bg-clip-text text-transparent animate-fade-in"
+          className="animate-fade-in"
         >
-          Sonia Ineza
+          <img src="/ChatGPT Image Dec 15, 2025, 12_11_22 PM.png" alt="Sonia Ineza" className="h-12 w-auto" />
         </a>
         <div className="hidden md:flex items-center space-x-1">
           <nav className="flex space-x-1">
@@ -44,7 +43,7 @@ export function Header() {
               <a 
                 key={link.name} 
                 href={link.href} 
-                className="px-4 py-2 text-gray-700 hover:text-primary-600 transition-all duration-300 font-medium rounded-lg hover:bg-white/30 backdrop-blur-sm"
+                className="px-4 py-2 text-gray-300 hover:text-blue-400 transition-all duration-300 font-medium rounded-lg hover:bg-slate-800/50 backdrop-blur-sm"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {link.name}
@@ -54,20 +53,20 @@ export function Header() {
         </div>
         <button 
           onClick={toggleMenu} 
-          className="md:hidden p-2 rounded-lg hover:bg-white/30 transition-colors glass backdrop-blur-sm"
+          className="md:hidden p-2 rounded-lg hover:bg-slate-800/50 transition-colors glass-dark backdrop-blur-sm"
           aria-label="Toggle menu"
         >
-          {isMenuOpen ? <X size={24} className="text-primary-600" /> : <Menu size={24} className="text-primary-600" />}
+          {isMenuOpen ? <X size={24} className="text-blue-400" /> : <Menu size={24} className="text-blue-400" />}
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden bg-white/80 backdrop-blur-lg shadow-lg border-t border-white/20 animate-slide-up">
+        <div className="md:hidden bg-slate-900/95 backdrop-blur-lg shadow-lg border-t border-slate-700 animate-slide-up">
           <nav className="flex flex-col py-2">
             {navLinks.map((link, index) => (
               <a 
                 key={link.name} 
                 href={link.href} 
-                className="px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-white/50 transition-all duration-300 font-medium rounded-lg mx-2 my-1"
+                className="px-4 py-3 text-gray-300 hover:text-blue-400 hover:bg-slate-800/50 transition-all duration-300 font-medium rounded-lg mx-2 my-1"
                 onClick={toggleMenu}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >

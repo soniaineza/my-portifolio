@@ -49,7 +49,7 @@ export function App() {
 
   if (currentView === 'project') {
     return (
-      <div className="font-sans bg-gradient-to-b from-orange-50 to-amber-50 text-gray-800 min-h-screen">
+      <div className="font-sans bg-gradient-to-r from-gray-900 to-black text-white min-h-screen">
         <Header />
         <ProjectDetail projectId={projectId} />
         <Footer />
@@ -58,7 +58,7 @@ export function App() {
   }
 
   return (
-    <div className="font-sans bg-gradient-to-b from-orange-50 to-amber-50 text-gray-800 min-h-screen">
+    <div className="font-sans bg-gradient-to-r from-gray-900 to-black text-white min-h-screen">
       <Header />
       <main className="min-h-screen">
         <Hero />
