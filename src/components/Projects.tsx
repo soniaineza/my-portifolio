@@ -1,0 +1,223 @@
+import React from 'react';
+import { ExternalLink, Smartphone, School, Gamepad2, BookOpen, Trees, Film, AlertCircle, Cloud, Brain, Sparkles, Home, Mic, Building2, Trash2, Leaf, Stethoscope, BatteryCharging, MapPin, GraduationCap, Wind, Lightbulb, Flame, Bus } from 'lucide-react';
+export function Projects() {
+  const projects = [
+    {
+      id: 'weown',
+      name: 'WeOwn Real Estate',
+      description: 'Modern real estate platform for buying, selling, and investing in properties with intuitive search and comparison tools.',
+      icon: <Home size={24} className="text-blue-600" />,
+      tags: ['Real Estate', 'Web Platform', 'Property Search', 'Investment']
+    },
+    {
+      id: 'verbatim-web-maker',
+      name: 'Verbatim Web Maker',
+      description: 'AI-powered web development platform that generates websites from voice commands and natural language descriptions.',
+      icon: <Mic size={24} className="text-blue-600" />,
+      tags: ['AI', 'Voice Recognition', 'Web Development', 'No-Code']
+    },
+    {
+      id: 'sheja-cards',
+      name: 'Sheja Cards',
+      description: 'A modern student card management platform that helps schools run effortlessly, responsive, and built to simplify everything from enrollment to analytics.',
+      icon: <School size={24} className="text-purple-600" />,
+      tags: ['Web Platform', 'School Management', 'Analytics']
+    },
+    {
+      id: 'inkingi-rescue',
+      name: 'INKINGI Rescue',
+      description: 'Emergency response and rescue coordination system enabling real-time incident reporting, secure data handling, and faster response from emergency authorities.',
+      icon: <AlertCircle size={24} className="text-red-600" />,
+      tags: ['Emergency System', 'Real-time', 'Security']
+    },
+    {
+      id: 'micro-weather',
+      name: 'Micro Weather Forecast',
+      description: 'ML-powered weather forecasting application with temperature and rain predictions, featuring interactive charts and 7-day forecasts with map integration.',
+      icon: <Cloud size={24} className="text-blue-500" />,
+      tags: ['Machine Learning', 'Weather', 'Data Visualization']
+    },
+    {
+      id: 'twin-mind',
+      name: 'My Twin Mind',
+      description: 'AI-powered digital twin platform that creates a virtual version of yourself for self-exploration, decision-making, and friendly debates with your digital doppelgänger.',
+      icon: <Brain size={24} className="text-cyan-500" />,
+      tags: ['AI', 'Digital Twin', 'Self-Exploration']
+    },
+    {
+      id: 'universe-weather',
+      name: 'Alternate Reality Weather',
+      description: 'Creative weather application that shows what the weather is like in parallel universes, featuring a cosmic interface and dimensional exploration.',
+      icon: <Sparkles size={24} className="text-purple-500" />,
+      tags: ['Creative', 'Weather', 'Interactive']
+    },
+    {
+      id: 'triple-trade',
+      name: 'Triple Trade App',
+      description: 'Mobile application built with Flutter for trading services with intuitive UI and seamless user experience.',
+      icon: <Smartphone size={24} className="text-blue-600" />,
+      tags: ['Flutter', 'Mobile Development', 'Trading']
+    },
+    {
+      id: 'lapromise-nursery',
+      name: 'LaPromise Nursery Management',
+      description: 'Clean dashboard system using Python and SQLite for managing nursery school operations, student records, and administrative tasks.',
+      icon: <School size={24} className="text-green-600" />,
+      tags: ['Python', 'SQLite', 'Dashboard']
+    },
+    {
+      id: 'kina-gorilla',
+      name: 'Kina - Gorilla Game',
+      description: 'Interactive game developed with Vue.js featuring gorilla characters and engaging gameplay mechanics.',
+      icon: <Gamepad2 size={24} className="text-orange-600" />,
+      tags: ['Vue.js', 'Game Development', 'Interactive']
+    },
+    {
+      id: 'library-system',
+      name: 'Library Management System',
+      description: 'Comprehensive library management platform for tracking books, managing loans, and organizing library resources.',
+      icon: <BookOpen size={24} className="text-indigo-600" />,
+      tags: ['Library', 'Management', 'Database']
+    },
+    {
+      id: 'tree-track',
+      name: 'Tree Track',
+      description: 'Environmental tracking application for monitoring tree planting initiatives and forest conservation efforts.',
+      icon: <Trees size={24} className="text-emerald-600" />,
+      tags: ['Environment', 'Tracking', 'Conservation']
+    },
+    {
+      id: 'movie-streaming',
+      name: 'Movie Streaming Platform',
+      description: 'Modern streaming platform with intuitive interface for browsing and watching movies with smooth playback experience.',
+      icon: <Film size={24} className="text-pink-600" />,
+      tags: ['Streaming', 'Entertainment', 'Web App']
+    },
+    {
+      id: 'smart-city-hub',
+      name: 'Smart City Infrastructure Hub',
+      description: 'A central management system for monitoring city infrastructure, utilities, transport, and public safety using IoT dashboards and real-time analytics.',
+      icon: <Building2 size={24} className="text-blue-700" />,
+      tags: ['Smart City', 'IoT', 'Analytics', 'Dashboard']
+    },
+    {
+      id: 'city-waste-ai',
+      name: 'CityWaste AI',
+      description: 'Smart waste detection and pickup routing using AI-powered image recognition and optimized paths for garbage trucks.',
+      icon: <Trash2 size={24} className="text-green-600" />,
+      tags: ['AI', 'Smart City', 'Image Recognition', 'Optimization']
+    },
+    {
+      id: 'agro-vision',
+      name: 'AgroVision',
+      description: 'Crop and soil monitoring app helping farmers track plant health, rainfall patterns, and yield predictions.',
+      icon: <Leaf size={24} className="text-emerald-600" />,
+      tags: ['Agriculture', 'ML', 'Monitoring']
+    },
+    {
+      id: 'healthline-telecare',
+      name: 'HealthLine Telecare',
+      description: 'Virtual healthcare system offering remote doctor consultations, patient triage, and smart appointment scheduling.',
+      icon: <Stethoscope size={24} className="text-red-600" />,
+      tags: ['HealthTech', 'Telemedicine', 'Scheduling']
+    },
+    {
+      id: 'ecocharge-ev',
+      name: 'EcoCharge EV Network',
+      description: 'Platform for managing and locating electric vehicle charging stations with live availability tracking.',
+      icon: <BatteryCharging size={24} className="text-blue-500" />,
+      tags: ['EV', 'Smart City', 'Energy']
+    },
+    {
+      id: 'road-sense',
+      name: 'RoadSense',
+      description: 'Road hazard detection and reporting system with GPS tracking and community alerts.',
+      icon: <MapPin size={24} className="text-orange-500" />,
+      tags: ['Mapping', 'Reporting', 'Safety']
+    },
+    {
+      id: 'eduportal-plus',
+      name: 'EduPortal+',
+      description: 'A centralized education portal for schools, parents, and students with progress tracking and e-learning tools.',
+      icon: <GraduationCap size={24} className="text-purple-600" />,
+      tags: ['Education', 'E-learning', 'Management']
+    },
+    {
+      id: 'clean-air-map',
+      name: 'CleanAir Map',
+      description: 'City-wide air quality tracking tool showing pollution levels using sensors and heat maps.',
+      icon: <Wind size={24} className="text-sky-600" />,
+      tags: ['Environment', 'Sensors', 'Visualization']
+    },
+    {
+      id: 'streetlight-sync',
+      name: 'StreetLight Sync',
+      description: 'Smart streetlight system that optimizes power usage based on traffic and time of day.',
+      icon: <Lightbulb size={24} className="text-yellow-500" />,
+      tags: ['Smart City', 'Energy', 'IoT']
+    },
+    {
+      id: 'fireguard-ai',
+      name: 'FireGuard AI',
+      description: 'Fire detection system using ML to identify smoke, heat anomalies, and notify emergency teams instantly.',
+      icon: <Flame size={24} className="text-red-500" />,
+      tags: ['AI', 'Emergency', 'Detection']
+    },
+    {
+      id: 'citybus-live',
+      name: 'CityBus Live',
+      description: 'Real-time bus tracking platform with estimated arrival times, route optimization, and smart ticketing.',
+      icon: <Bus size={24} className="text-indigo-600" />,
+      tags: ['Transport', 'Real-time', 'Smart City']
+    }
+  ];
+
+  return (
+    <section id="projects" className="py-20 px-4 bg-gradient-to-r from-gray-900 to-black">
+      <div className="container mx-auto">
+        <div className="mb-16 text-center">
+          <h2 className="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+            Projects I've Worked On
+          </h2>
+          <p className="text-gray-300 text-lg">
+            A collection of projects I've contributed to and learned from
+          </p>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mt-4 rounded-full"></div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <a 
+              key={project.id} 
+              href={`/project/${project.id}`} 
+              className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.03] animate-fade-in"
+              style={{animationDelay:`${index * 0.1}s`}}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="p-3 neumorphic rounded-lg group-hover:bg-primary-50 transition-colors duration-300">
+                  {project.icon}
+                </div>
+                <ExternalLink size={16} className="text-gray-400 group-hover:text-blue-400 transition-colors duration-300" />
+              </div>
+              <h3 className="text-lg font-bold mb-2 group-hover:text-blue-400 transition-colors duration-300">
+                {project.name}
+              </h3>
+              <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                {project.description}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {project.tags.map((tag, tagIndex) => (
+                  <span 
+                    key={tagIndex} 
+                    className="px-3 py-1 glass backdrop-blur-sm text-gray-300 rounded-full text-xs font-medium hover:bg-white/10 transition-colors duration-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
