@@ -29,7 +29,7 @@ export function Contact() {
               <div className="flex items-center p-4 bg-slate-700/50 rounded-xl hover:scale-[1.02] transition-transform duration-300">
                 <Phone size={24} className="text-blue-400 mr-4" />
                 <div>
-                  <p className="font-medium text-gray-200">Phone</p>
+                  <p className="font-medium text-gray-200">Phone Number</p>
                   <a href="tel:+250794715042" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
                     +250 794 715 042
                   </a>
